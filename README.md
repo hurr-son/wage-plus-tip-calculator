@@ -1,5 +1,5 @@
 # wage-plus-tip-calculator
 
-Some amount of my income is tipped right now.
+**[Click Here to Use](https://hurr-son.github.io/wage-plus-tip-calculator/)**
 
-I'd like to build a simple calculator
+
