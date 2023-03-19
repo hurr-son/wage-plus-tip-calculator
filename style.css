@@ -1,5 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+body,
+button,
+input,
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.inputs {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.display-wage,
+.display-total-earnings {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .display-wage {
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
+  color: #4caf50;
+}
+
+.display-total-earnings {
+  color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputs {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+  .display-wage,
+  .display-total-earnings {
+    font-size: 18px;
+  }
 }
