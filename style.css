@@ -56,7 +56,8 @@ button:hover {
 }
 
 .display-wage,
-.display-total-earnings {
+.display-total-earnings,
+.display-taxed-earnings {
   margin-top: 20px;
   text-align: center;
   font-size: 24px;
@@ -67,7 +68,8 @@ button:hover {
   color: #4caf50;
 }
 
-.display-total-earnings {
+.display-total-earnings,
+.display-taxed-earnings {
   color: #333;
 }
 
